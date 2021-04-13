@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 100px 0;
 }
@@ -17,7 +23,6 @@ input[type="text"]{
     height: 50px;
     width: 600px;
     background: #e7e7e7;
-    font-family:'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
     border: none;
@@ -29,7 +34,6 @@ input[type="submit"]{
     height: 50px;
     width: 100px;
     background: #e7e7e7;
-    font-family:'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 20px;
     border: none;
@@ -37,5 +41,10 @@ input[type="submit"]{
 }
 
 .display {
+    text-align: center;
+}
+
+.forecast {
+    padding: 40px;
     text-align: center;
 }
