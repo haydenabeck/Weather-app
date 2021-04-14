@@ -17,7 +17,7 @@ var day5 = document.querySelector('.day5')
 
 // Adding info to page 
 button.addEventListener('click', function(){
-    fetch('http://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&APPID=80d1eb88104cf390886d9f8e6afcbbdc&units=imperial')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&APPID=80d1eb88104cf390886d9f8e6afcbbdc&units=imperial')
     .then(response => response.json())
     .then(data => {
         console.log(data);
