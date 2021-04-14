@@ -1,7 +1,7 @@
 # Weather-app
 
 ## Live Link
-https://haydenabeck.github.io/random-password-generator/
+https://haydenabeck.github.io/Weather-app/
 
 ## Contributors 
 @haydenabeck
@@ -29,7 +29,7 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
 ## Screenshots
-<img src=".\assets\" alt=""/>
+<img src=".\assets\Screenshot (17).png" alt=""/>
 
 ## Contact 
 #### Name (@haydenabeck)
